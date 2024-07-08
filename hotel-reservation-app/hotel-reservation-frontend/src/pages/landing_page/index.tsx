@@ -24,7 +24,7 @@ export default function LandingPage() {
       </Typography>
       <Button
         onClick={() => {
-          window.location.href = "auth/login";
+          window.location.href = "/auth/login";
         }}
         variant="contained"
         color="secondary"
